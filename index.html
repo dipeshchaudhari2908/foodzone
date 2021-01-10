@@ -17,9 +17,10 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <!--Menu Start-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand text-warning fs-3" href="#">FoodZone</a>
+          <a class="navbar-brand text-warning fs-3 font-weight-bold" href="#">FoodZone</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -47,5 +48,47 @@
           </div>
         </div>
       </nav>
+      <!--Menu End-->
+      <!--Carousel Start-->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imgs/pancakes-2291908_1920.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-warning">
+              <h5>Pan Cakes</h5>
+              <p>Pan cakes with raspberry and honey.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/pizza-3007395_1920.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-warning">
+              <h5>Italian Pizza</h5>
+              <p>The orginal Italian Pizza.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/coffee-3120750_1920.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-warning">
+              <h5>Original Coffee</h5>
+              <p>The taste of Original coffee.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+      <!--Carousel End-->
+      <div class="mt-5"></div>
 </body>
 </html>
